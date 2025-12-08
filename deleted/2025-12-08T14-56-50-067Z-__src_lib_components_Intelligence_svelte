@@ -1,0 +1,55 @@
+<script>
+</script>
+
+<section class="py-24 bg-white overflow-hidden">
+    <div class="mx-auto max-w-7xl px-6">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            
+            <!-- Left Content -->
+            <div>
+                <span class="inline-block rounded-full bg-orange-100 px-3 py-1 text-xs font-semibold text-orange-800 mb-6">
+                    Fabric Hybrid AI
+                </span>
+                <h2 class="font-display text-4xl md:text-5xl text-gray-900 leading-tight mb-6">
+                    Backed by clinical intelligence
+                </h2>
+                <p class="text-gray-600 mb-8 leading-relaxed">
+                    By combining automated conversational AI and physician-built clinical logic, Fabric Hybrid AI enables healthcare organizations to confidently adopt AI solutions that ensure seamless, safe, and efficient patient experiences.
+                </p>
+                <div class="flex flex-wrap gap-2 mb-8">
+                    <span class="rounded-full bg-gray-900 px-4 py-2 text-sm font-medium text-white">Clinical Intelligence</span>
+                    <span class="rounded-full bg-gray-900 px-4 py-2 text-sm font-medium text-white">Conversational AI</span>
+                    <span class="rounded-full bg-gray-900 px-4 py-2 text-sm font-medium text-white">Clinical Quality</span>
+                </div>
+                <a href="#" class="inline-flex items-center text-sm font-semibold text-gray-900 hover:underline">
+                    Read the Press Release <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ml-1"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                </a>
+            </div>
+
+            <!-- Right Diagram -->
+            <div class="relative flex items-center justify-center h-[500px]">
+                <!-- Background Glow -->
+                <div class="absolute inset-0 bg-gradient-radial from-orange-100 to-transparent opacity-70 blur-3xl"></div>
+                
+                <!-- Concentric Circles -->
+                <div class="relative z-10 flex items-center justify-center">
+                    <!-- Outer Circle -->
+                    <div class="h-[400px] w-[400px] rounded-full border-2 border-orange-100 bg-orange-50/30 flex items-center justify-center relative">
+                        <span class="absolute top-8 font-medium text-xs tracking-widest uppercase text-gray-500">Large Language Models</span>
+                        
+                        <!-- Middle Circle -->
+                        <div class="h-[280px] w-[280px] rounded-full border-2 border-green-100 bg-green-50/30 flex items-center justify-center relative">
+                             <span class="absolute top-6 font-medium text-xs tracking-widest uppercase text-gray-500 text-center px-4">Medical Language Processing</span>
+
+                            <!-- Inner Circle -->
+                            <div class="h-[160px] w-[160px] rounded-full bg-blue-100 flex items-center justify-center shadow-lg text-center p-4">
+                                <span class="font-display font-medium text-gray-900 leading-tight">Clinical<br>Expert<br>System</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>

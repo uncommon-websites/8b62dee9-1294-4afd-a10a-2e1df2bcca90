@@ -1,0 +1,40 @@
+<script>
+	const partners = [
+		{ name: 'SSM Health', logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/SSM_Health_logo.svg/2560px-SSM_Health_logo.svg.png' },
+		{ name: 'Intermountain Health', logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Intermountain_Healthcare_logo.svg/2560px-Intermountain_Healthcare_logo.svg.png' },
+		{ name: 'OSF HealthCare', logo: 'https://upload.wikimedia.org/wikipedia/commons/e/e8/OSF_HealthCare_Logo.png' },
+		{ name: 'MUSC Health', logo: 'https://muschealth.org/-/media/images/logos/musc-health-logo-black.png' }
+	];
+</script>
+
+<section class="py-12 border-b border-gray-100">
+	<div class="mx-auto max-w-7xl px-6">
+        <div class="flex flex-col md:flex-row items-center justify-between gap-8 mb-12">
+            <h2 class="font-display text-3xl text-gray-900">Partners</h2>
+            <div class="flex gap-2">
+                <button class="rounded-full border border-gray-200 px-4 py-2 text-sm font-medium text-gray-600 hover:bg-gray-50">Health Systems</button>
+                <button class="rounded-full border border-gray-200 px-4 py-2 text-sm font-medium text-gray-600 hover:bg-gray-50">Health Plans</button>
+                <button class="rounded-full border border-gray-200 px-4 py-2 text-sm font-medium text-gray-600 hover:bg-gray-50">Employers</button>
+            </div>
+        </div>
+
+		<div class="grid grid-cols-2 gap-8 md:grid-cols-4 items-center justify-items-center opacity-60 grayscale hover:grayscale-0 transition-all duration-500">
+            <!-- Using text placeholders if logos are tricky, but I'll try to simulate logos with text/svg if needed. 
+                 For now, I'll use simple text representations styled to look like logos if images fail, 
+                 but ideally these should be SVGs. I'll use div placeholders with text for now to be safe and fast. -->
+            
+            <div class="h-12 flex items-center justify-center">
+                 <span class="font-bold text-xl italic font-serif">SSM Health</span>
+            </div>
+             <div class="h-12 flex items-center justify-center">
+                 <span class="font-bold text-xl tracking-tight">Intermountain</span><span class="text-xl font-light">Health</span>
+            </div>
+             <div class="h-12 flex items-center justify-center">
+                 <span class="font-bold text-xl serif">OSF</span><span class="text-sm ml-2 uppercase tracking-widest">HealthCare</span>
+            </div>
+             <div class="h-12 flex items-center justify-center">
+                 <span class="font-bold text-xl">MUSC Health</span>
+            </div>
+		</div>
+	</div>
+</section>
