@@ -6,7 +6,7 @@
 <section class="py-24 bg-white">
     <div class="mx-auto max-w-7xl px-6">
         <div class="flex items-center justify-between mb-12">
-            <h2 class="font-display text-4xl text-gray-900">Newsroom</h2>
+            <h2 class="font-display text-4xl text-gray-900">Resources & Insights</h2>
             <div class="flex items-center gap-4">
                 <div class="flex gap-2">
                     <button class="h-10 w-10 rounded-full border border-gray-200 flex items-center justify-center hover:bg-gray-50">
@@ -26,13 +26,13 @@
             <!-- News Item 1 -->
             <div class="group cursor-pointer">
                 <div class="flex items-center gap-3 mb-4">
-                    <span class="bg-blue-100 text-blue-800 text-xs font-semibold px-2 py-1 rounded">News</span>
-                    <span class="text-xs text-gray-500">Fierce Healthcare</span>
+                    <span class="bg-primary-100 text-primary-800 text-xs font-semibold px-2 py-1 rounded">Guide</span>
+                    <span class="text-xs text-gray-500">Practice Growth</span>
                 </div>
-                <h3 class="font-display text-xl text-gray-900 mb-4 group-hover:text-blue-600 transition-colors">
-                    Fabric buys UCM Digital Health to expand reach to payers, employers
+                <h3 class="font-display text-xl text-gray-900 mb-4 group-hover:text-primary-600 transition-colors">
+                    Employer Discovery Guide for Physical Therapists
                 </h3>
-                <div class="text-xs text-gray-400">November 13, 2023</div>
+                <div class="text-xs text-gray-400">Essential reading</div>
                 <div class="mt-4 flex items-center text-sm font-medium text-transparent group-hover:text-gray-900 transition-colors">
                     Read more <ArrowRight size={16} class="ml-2" />
                 </div>
@@ -41,13 +41,13 @@
              <!-- News Item 2 -->
              <div class="group cursor-pointer">
                 <div class="flex items-center gap-3 mb-4">
-                    <span class="bg-blue-100 text-blue-800 text-xs font-semibold px-2 py-1 rounded">News</span>
-                    <span class="text-xs text-gray-500">Endpoints News</span>
+                    <span class="bg-primary-100 text-primary-800 text-xs font-semibold px-2 py-1 rounded">Blog</span>
+                    <span class="text-xs text-gray-500">D2E Contracting</span>
                 </div>
-                <h3 class="font-display text-xl text-gray-900 mb-4 group-hover:text-blue-600 transition-colors">
-                    Health IT startup Fabric buys UCM Digital Health — its fifth acquisition in three years
+                <h3 class="font-display text-xl text-gray-900 mb-4 group-hover:text-primary-600 transition-colors">
+                    Introduction to Direct to Employer Contracting for PT Practices
                 </h3>
-                <div class="text-xs text-gray-400">November 11, 2023</div>
+                <div class="text-xs text-gray-400">Latest insights</div>
                  <div class="mt-4 flex items-center text-sm font-medium text-transparent group-hover:text-gray-900 transition-colors">
                     Read more <ArrowRight size={16} class="ml-2" />
                 </div>
@@ -56,13 +56,13 @@
              <!-- News Item 3 -->
              <div class="group cursor-pointer">
                 <div class="flex items-center gap-3 mb-4">
-                    <span class="bg-blue-100 text-blue-800 text-xs font-semibold px-2 py-1 rounded">News</span>
-                    <span class="text-xs text-gray-500">Health Tech World</span>
+                    <span class="bg-primary-100 text-primary-800 text-xs font-semibold px-2 py-1 rounded">Guide</span>
+                    <span class="text-xs text-gray-500">Marketing</span>
                 </div>
-                <h3 class="font-display text-xl text-gray-900 mb-4 group-hover:text-blue-600 transition-colors">
-                    Fabric buys UCM Digital Health to expand reach to payers, employers
+                <h3 class="font-display text-xl text-gray-900 mb-4 group-hover:text-primary-600 transition-colors">
+                    Physical Therapy Marketing Audit Guide: Maximize Your Patient Volume
                 </h3>
-                <div class="text-xs text-gray-400">November 13, 2023</div>
+                <div class="text-xs text-gray-400">Free download</div>
                  <div class="mt-4 flex items-center text-sm font-medium text-transparent group-hover:text-gray-900 transition-colors">
                     Read more <ArrowRight size={16} class="ml-2" />
                 </div>
@@ -85,16 +85,16 @@
             </div>
         </div>
 
-        <!-- Blue CTA Banner -->
-        <div class="mt-24 bg-[#e0f2fe] rounded-2xl p-12 flex flex-col md:flex-row items-center justify-between">
+        <!-- Teal CTA Banner -->
+        <div class="mt-24 bg-primary-50 rounded-2xl p-12 flex flex-col md:flex-row items-center justify-between">
             <div class="max-w-xl">
-                <h2 class="font-display text-4xl text-gray-900 mb-4">See Fabric in action</h2>
+                <h2 class="font-display text-4xl text-gray-900 mb-4">Ready to transform your practice?</h2>
                 <p class="text-gray-600">
-                    Fabric creates operational and clinical efficiency that expands access while providing consumer-grade care experiences that drive better outcomes and savings for health systems, employers, brokers, and health plans alike.
+                    Join 500+ physical therapy practices using Second Door to automate marketing, secure employer contracts, and scale to direct-pay models. Most practices are operational within 30 days.
                 </p>
             </div>
             <div class="mt-8 md:mt-0">
-                <Button type="primary">Request a demo</Button>
+                <Button type="primary">Get Started Today</Button>
             </div>
         </div>
     </div>

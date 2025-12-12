@@ -1,32 +1,32 @@
 <script lang="ts">
     const cards = [
         {
-            title: "AI Assistant",
-            image: "https://images.unsplash.com/photo-1516575334481-f85287c2c81d?q=80&w=2000&auto=format&fit=crop",
-            alt: "Person using phone on couch"
+            title: "Employer Discovery & Contracting",
+            image: "https://images.unsplash.com/photo-1556761175-b413da4baf72?q=80&w=2000&auto=format&fit=crop",
+            alt: "Business meeting"
         },
         {
-            title: "Provider Directory",
-            image: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?q=80&w=2000&auto=format&fit=crop",
-            alt: "Doctor looking at tablet"
+            title: "Marketing Automation",
+            image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2000&auto=format&fit=crop",
+            alt: "Marketing dashboard"
         },
         {
-            title: "Engagement & Pathways",
-            image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=2000&auto=format&fit=crop",
-            alt: "Woman using phone"
+            title: "EMR Integration & Outcomes",
+            image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?q=80&w=2000&auto=format&fit=crop",
+            alt: "Healthcare technology"
         }
     ];
 </script>
 
-<section class="py-24">
+<section class="py-24 bg-white">
     <div class="max-w-[1440px] mx-auto px-6">
         <div class="flex flex-col md:flex-row justify-between items-end mb-12">
             <div class="max-w-2xl">
                 <h2 class="text-4xl md:text-5xl font-heading mb-6">
-                    Meet our end-to-end care access platform and virtual care services
+                    Everything you need to grow your direct-pay PT practice
                 </h2>
                 <p class="text-gray-600 max-w-xl">
-                    Fabric creates operational and clinical efficiency that expands access while providing consumer-grade care experiences that drive better outcomes and savings for health systems, employers, brokers, and health plans alike.
+                    Second Door provides the complete platform for physical therapy practices to automate marketing, secure employer contracts, and scale to direct-pay models—all while working alongside your existing workflows.
                 </p>
             </div>
             
@@ -46,11 +46,26 @@
                     <div class="aspect-[4/3] overflow-hidden rounded-sm mb-0">
                         <img src={card.image} alt={card.alt} class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
                     </div>
-                    <div class="bg-[#1a2c38] text-white p-4">
+                    <div class="bg-gray-900 text-white p-4">
                         <h3 class="text-lg font-medium">{card.title}</h3>
                     </div>
                 </div>
             {/each}
+        </div>
+        
+        <div class="mt-16 grid md:grid-cols-3 gap-8">
+            <div class="text-center">
+                <div class="text-4xl font-bold text-gray-900 mb-2">$99</div>
+                <div class="text-sm text-gray-600">Starting price per location/month</div>
+            </div>
+            <div class="text-center">
+                <div class="text-4xl font-bold text-gray-900 mb-2">30 Days</div>
+                <div class="text-sm text-gray-600">Average time to go live</div>
+            </div>
+            <div class="text-center">
+                <div class="text-4xl font-bold text-gray-900 mb-2">500+</div>
+                <div class="text-sm text-gray-600">PT practices in our network</div>
+            </div>
         </div>
     </div>
 </section>
